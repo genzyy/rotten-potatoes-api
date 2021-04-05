@@ -51,3 +51,8 @@ export class CreateMovieTable1617520408201 implements MigrationInterface {
     Avoid writing plain SQLite queries (or whatever language you are using)
     Store a history of the changes that we applied into our database (and also their order) so that it can be easy to synchronize a newly created database with the schema we’ve created so far.
  */
+
+/**
+ * The up function is used for migration of the database or syncing of the database.
+ * While the down function is used for rolling back the database or for the history.
+ */
