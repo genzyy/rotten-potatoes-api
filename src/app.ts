@@ -1,3 +1,4 @@
+// require statements in es6.
 import express from 'express';
 import * as bodyParser from 'body-parser';
 import { Movie } from './db/models/Movie.model';
@@ -17,4 +18,5 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
+// exporting the app function as a non-default function.
 export { app };
